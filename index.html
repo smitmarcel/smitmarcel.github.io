@@ -1,27 +1,186 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<title>MarcelSmit.dev</title>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/bootstrap-light.css">
-<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MarcelSmit.dev</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
-
 <body>
-<div class="overlay"></div>
-<!--WRAP-->
-<div id="wrap">
-	<!--CONTAINER-->
-	<div class="container">		
-		<h1>
-			<span>This Site</span><br/>
-			Is Under <span class="yellow">Construction.</span>
-		</h1>
-		<p>Personal site of <strong>Marcel Smit.</strong>
-	</div>
-	<!--/CONTAINER-->
-</div>
-<!--/WRAP-->
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Marcel Smit</h1>
+            <h2>Software Developer</h2>
+        </div>
+        <div id="lead-overlay"></div>
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+    <div id="about">
+        <h2 class="heading">About Me</h2>
+        <div class="container">           
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/me.png" class="pull-right" />
+                </div>
+                <div class="col-md-8">
+                    <p>
+					   Hi folks! My name is Marcel Smit.<br>I'm a software developer working from my home office located in northern germany.<br>
+                       After work, I love to spend time with my wife and our cats, play guitar, video games and cook delicious meals.<br>
+                       Since recently, I enjoy my new hobby as Aquascaper as well.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="January 2019 – Today">
+                <h3>TecAlliance GmbH</h3>
+                <h4>Lead Software Developer</h4>
+                <p>
+                    Lead Software developer with responsiblity for a team and the backend development within a new international project.
+                    Responsible for backend and project related decissions, project preparation, prototyping and planning of work packages for an agile development process (SCRUM).
+                </p>
+            </div>
+            <div data-date="January 2015 – January 2019">
+                <h3>TecAlliance GmbH</h3>
+                <h4>Software Developer</h4>
+                <p>
+                    New responsibilities as software developer, moving focus on backend development with ASP.NET Web API and ASP.NET Core. 
+                    Extending an existing backend framework to simplify and optimize the company internal APIs.
+                    Development of globally usable desktop- and web-applications based on .NET technologies and Angular.
+                </p>
+            </div>
+            <div data-date="July 2013 – January 2015">
+                <h3>TecAlliance GmbH</h3>
+                <h4>Specialist Software Engineering</h4>
+                <p>
+                    Employment as specialist for software engineering at TecAlliance GmbH, formerly known as AuDaCon AG.
+                    Working with WPF, C# and ASP.NET Web API to built globally usable tools to gather data, provided by professionals of the automotive area.
+                </p>
+            </div>
+            <div data-date="September 2010 – July 2013">
+                <h3>AuDaCon AG</h3>
+                <h4>Trainee Information Technology Specialist - Application Development</h4>
+                <p>
+                    Training for application development, based on Microsoft technologies. Learning MS SQL, WPF and C#.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>ASP.NET Core</li>
+            <li>Windows Presentation Foundation (WPF)</li>
+            <li>C#</li>
+            <li>SQL</li>
+            <li>MS SQL Server</li>
+            <li>REST APIs</li>
+            <li>Entity Framework</li>       
+            <li>Design Patterns</li>
+            <li>Visual Studio</li>
+            <li>Azure DevOps (Branching, Builds, Releases)</li>
+            <li>Unit Testing</li>
+            <li>Integration Testing</li>
+            <li>IIS</li>
+            <li>Windows Forms</li>
+            <li>Kafka</li>
+            <li>Docker</li>
+            <li>PowerShell</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+			<li>Angular</li>
+            <li>Xamarin Forms</li>
+            <li>GIT</li>
+            <li>MS Office 365</li>
+			<li>Certified Training Supervisor</li>
+        </ul>
+    </div>
+    <div id="skills">
+        <h2 class="heading">Feedback I've received from my colleagues</h2>
+        <ul>
+            <li>"100% reliable"</li>
+            <li>"structured work mindset with the utmost care"</li>
+            <li>"inquisitive for knowledge"</li>
+            <li>"proactively learning"</li>
+            <li>"strong autonomy"</li>
+            <li>"excellent task scheduling skills"</li>
+        </ul>
+    </div>   
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/marcel.smit@outlook.de">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 Marcel Smit
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/smitmarcel" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.xing.com/profile/Marcel_Smit4/cv" target="_blank"><i class="fa fa-xing" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
 </html>
